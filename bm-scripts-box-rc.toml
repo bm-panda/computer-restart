@@ -1,5 +1,5 @@
 [bmscriptsbox.info]
-id = "9da0bd77-69b1-4d41-a20b-0f5b00c54255"              
+id = "a408a78a-6bab-4b62-ae00-492cb79c5323"              
 name = "重启计算机"                                    
 desc = "Windows重启脚本、配合不忙脚本盒子可实现快速定时重启计算机"                                  
 version = "0.0.1"                                        
