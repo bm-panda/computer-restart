@@ -1,0 +1,29 @@
+[bmscriptsbox.info]
+id = "9da0bd77-69b1-4d41-a20b-0f5b00c54255"              
+name = "重启计算机"                                    
+desc = "Windows重启脚本、配合不忙脚本盒子可实现快速定时重启计算机"                                  
+version = "0.0.1"                                        
+icon = "cq.png"   
+
+[bmscriptsbox.runtime]
+language = "bat"  
+language_version = ">=0.0.0"             
+entry = "main.cmd"                   
+terminal = "never"   
+binaries = [{name = "nircmd"}]     
+
+[bmscriptsbox.triggers]
+[bmscriptsbox.triggers.context_menu]                   
+enabled = true                                 
+targets = ["background"]                        
+
+[bmscriptsbox.triggers.shortcut]                          
+enabled = true                                  
+input_type = ""                                 
+
+
+
+
+
+
+
