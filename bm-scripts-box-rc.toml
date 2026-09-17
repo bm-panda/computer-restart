@@ -2,7 +2,7 @@
 id = "a408a78a-6bab-4b62-ae00-492cb79c5323"              
 name = "重启计算机"                                    
 desc = "Windows重启脚本、配合不忙脚本盒子可实现快速定时重启计算机"                                  
-version = "0.0.1"                                        
+version = "1.0.0"                                        
 icon = "cq.png"   
 
 [bmscriptsbox.runtime]
@@ -19,7 +19,9 @@ targets = ["background"]
 
 [bmscriptsbox.triggers.shortcut]                          
 enabled = true                                  
-input_type = ""                                 
+
+[bmscriptsbox.schedule]
+enabled = true                              
 
 
 
